@@ -5,25 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roots Land Real Estate</title>
+    <!--theme colors -->
+    <meta name="theme-color" content="" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!--Basic meta info -->
+    <meta name="keywords" content="">
+    <meta name="author" content="" />
+    <meta name="description"
+        content="Find Properties in Dubai That suites your ability to Sell, Buy or Rent, We have trained team that will serve you beyond your highest expactations.">
+
+    <!--OpenGraph meta -->
+    <meta property="og:description" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="/public/images/roots-land-logo.png" />
+    <meta property="og:url" content="" />
+
+    <!--meta for twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:image" content="/public/images/roots-land-logo.png">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:description" content="">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="logo.png" />
+
+
+    <title>Find New Offers | Roots Land Real Estate </title>
 
     <!-- #swiper-css-library -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <!-- #css-styles -->
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/normalize.css">
 
 
 </head>
 
-<body>
+<body id="divToExport">
 
     <!-- #logo-section-container -->
     <div class="myContainer">
         <!-- #logo -->
-        <div class="" style="padding-top: 40px; padding-bottom: 20px;">
+        <div class="" style="padding-top: 20px; padding-bottom: 20px;">
             <!-- <img src="./" alt=""> -->
-            <a href="#">
-                <img src="./public/images/roots-land-logo.png" width="250">
+            <a href="https://www.rootsland.com/" title="Roots Land Real Estate" target="_blank">
+                <img src="./public/images/roots-land-logo.png" title="Roots Land Real Estate Company Logo"
+                    alt="Roots Land Real Estate Company Logo" width="200">
             </a>
             <!-- ##logo -->
         </div>
@@ -49,16 +81,15 @@
             <div class="header-cta">
                 <!-- #share-cta-btn -->
                 <button onclick="openShareModal()" class="bg-transparent" style="cursor: pointer;">
-                    <img src="./public/icons/share.svg" alt="share button">
+                    <img src="./public/icons/share.svg" title="share" alt="share button">
                 </button>
                 <!-- ##share-cta-btn -->
                 <!-- <==============> -->
                 <!-- #print-cta-btn -->
                 <button onclick="window.print()" class="bg-transparent font-color-primary" style="cursor: pointer;">
-                    <img src="./public/icons/print-btn.svg" alt="print button">
+                    <img src="./public/icons/print-btn.svg" alt="Offer Page Print Button" title="print the page">
                 </button>
                 <!-- ##print-cta-btn -->
-
             </div>
             <!-- ##header-cta -->
         </div>
@@ -76,13 +107,16 @@
         <div class="img-grid">
             <!-- #main-img -->
             <div class="main-img">
-                <img src="./public/images/main-theme-img.png" alt="This is The Main Image" />
+                <img src="https://www.propertyfinder.ae/property/c24c3a6c3e4252d6473266465c6e6c6c/260/185/MODE/e6073c/9639451-54862o.webp?ctr=ae"
+                    class="zoomable-image" data-zoomable="true" onclick="openZoomModal()" alt="The Main Property Photo"
+                    title="click to view" />
 
                 <!-- #show-photos-cta -->
                 <div class="show-photos-cta">
                     <button class="photo-btn" onclick="openSliderModal()"
                         style="background-color: white;cursor: pointer  ">
-                        <img src="./public/icons/Photo.svg" style="width: 32px; height: 32px;" alt="Image SVG Photo" />
+                        <img src="./public/icons/Photo.svg" style="width: 32px; height: 32px;" alt="Image SVG Photo"
+                            title="click to show all property images" />
                         <p>Show 15 Photos</p>
                     </button>
                 </div>
@@ -96,13 +130,17 @@
                 <div class="sub-imgs-grid">
                     <!-- #img-1 -->
                     <div class="bg-red-100">
-                        <img src="./public/images/2nd-theme-img.png" alt="This is The Sub Image (1)" />
+                        <img src="https://www.propertyfinder.ae/property/c24c3a6c3e4252d6473266465c6e6c6c/260/185/MODE/e6073c/9639451-54862o.webp?ctr=ae"
+                            class="zoomable-image" data-zoomable="true" alt="This is The Sub Image (1)"
+                            title="click to view" />
                     </div>
                     <!-- ##img-1 -->
                     <!-- <==============> -->
                     <!-- #img-2 -->
                     <div class="bg-blue-100">
-                        <img src="./public/images/3rd-theme-img.png" alt="This is The Sub Image (2)" />
+                        <img src="https://www.propertyfinder.ae/property/c24c3a6c3e4252d6473266465c6e6c6c/260/185/MODE/e6073c/9639451-54862o.webp?ctr=ae"
+                            class="zoomable-image" data-zoomable="true" alt="This is The Sub Image (2)"
+                            title="click to view" />
                     </div>
                     <!-- ##img-2 -->
                 </div>
@@ -135,9 +173,9 @@
 
             <!-- #body-price-right -->
             <div class="body-price-right">
-                <img src="./public/icons/currency-aed.svg" style="height:16px;" alt="AED SVG Price" />
                 <h2>1,100,000</h2>
-                <p>AED</p>
+                <img src="./public/icons/currency-aed.svg" title="Property Price" style="height:16px;"
+                    alt="AED SVG Price" />
             </div>
             <!-- ##body-price-right -->
         </div>
@@ -186,17 +224,17 @@
                         <div class="agent-box">
                             <!-- #agent-details -->
                             <div class="agent-details">
-                                <img src="./public/images/Agent.png" width="100" height="100"
+                                <img src="./public/images/Agent.png" title="property agnet" width="100" height="100"
                                     style="border-radius: 100%;" alt="#" />
-                                <div>
-                                    <div style="display: flex; align-items: center;">
+                                <div style="margin: 0;">
+                                    <div class="agent-break">
                                         <p class="font-color-light">Agent:
                                         </p>
-                                        <p class="font-color-dark" style="margin-left: 10px;">Fadi Boush</p>
+                                        <p class="font-color-dark agent-break-p ">Fadi Boush</p>
                                     </div>
-                                    <div style="display: flex; align-items: center;">
+                                    <div class="agent-break">
                                         <p class="font-color-light">Ref.NO:</p>
-                                        <p class="font-color-dark" style="margin-left: 10px;">S1812</p>
+                                        <p class="agent-break-p font-color-dark">S1812</p>
                                     </div>
                                 </div>
                             </div>
@@ -205,30 +243,37 @@
                             <!-- #contact-details -->
                             <div class="contact-details">
                                 <!-- #contact-item -->
-                                <a href="#" class="font-color-dark">
-                                    <img src="./public/icons/Whatsapp.svg" alt="Whatsapp SVG Icon"
-                                        class="contact-icon" />
+                                <a href="https://wa.me/+971506441823" title="contact via whatsapp"
+                                    class="font-color-dark" target="_blank">
+                                    <img src="./public/icons/Whatsapp.svg" title="contact via whatsapp"
+                                        alt="Whatsapp SVG Icon" class="contact-icon" />
                                     <p>Whatsapp</p>
                                 </a>
                                 <!-- ##contact-item -->
                                 <!-- <==============> -->
                                 <!-- #contact-item -->
-                                <a href="#" class="font-color-dark">
-                                    <img src="./public/icons/Phone.svg" alt="Phone SVG Icon" class="contact-icon" />
+                                <a href="tel:+971506441823" title="contact via telephone" class="font-color-dark"
+                                    target="_blank">
+                                    <img src="./public/icons/Phone.svg" title="contact via calling phone number"
+                                        alt="Phone SVG Icon" class="contact-icon" />
                                     <p>Phone Call</p>
                                 </a>
                                 <!-- ##contact-item -->
                                 <!-- <==============> -->
                                 <!-- #contact-item -->
-                                <a href="#" class="font-color-dark">
-                                    <img src="./public/icons/Mobile.svg" alt="Email SVG Icon" class="contact-icon" />
+                                <a href="tel:+971506441823" title="contact via mobilephone" class="font-color-dark"
+                                    target="_blank">
+                                    <img src="./public/icons/Mobile.svg" title="contact via calling mobile number"
+                                        alt="Mobile SVG Icon" class="contact-icon" />
                                     <p>Mobile Call</p>
                                 </a>
                                 <!-- ##contact-item -->
                                 <!-- <==============> -->
                                 <!-- #contact-item -->
-                                <a href="#" class="font-color-dark">
-                                    <img src="./public/icons/Email.svg" alt="Email SVG Icon" class="contact-icon" />
+                                <a href="mailto:fadi@propertywatch.com" title="contact via email"
+                                    class="font-color-dark" target="_blank">
+                                    <img src="./public/icons/Email.svg" title="contact via sending email"
+                                        alt="Email SVG Icon" class="contact-icon" />
                                     <p>Email</p>
                                 </a>
                                 <!-- ##contact-item -->
@@ -269,35 +314,40 @@
                 <div class="details-sub-grid">
                     <!-- #detail-item -->
                     <div class="detail-item">
-                        <img src="./public/icons/bed-room-2.svg" alt="">
+                        <img src="./public/icons/bed-room-2.svg" alt="property bed rooms count"
+                            title="property bed rooms count">
                         <h3>1 Bedroom Duplex</h3>
                     </div>
                     <div class="detail-item">
-                        <img src="./public/icons/space-sqm.svg" alt="">
+                        <img src="./public/icons/space-sqm.svg" alt="property sqm space" title="property sqm space">
                         <h3>1000.00 Sqm</h3>
                     </div>
                     <div class="detail-item">
-                        <img src="./public/icons/space-sqft.svg" alt="">
+                        <img src="./public/icons/space-sqft.svg" alt="property sqf space" title="property sqf space">
                         <h3>873.00 Sqft</h3>
                     </div>
                     <div class="detail-item">
-                        <img src="./public/icons/furnished-2.svg" alt="">
+                        <img src="./public/icons/furnished-2.svg" alt="property furnished status"
+                            title="property furnished status">
                         <h3>Furnished</h3>
                     </div>
                     <div class="detail-item">
-                        <img src="./public/icons/bath-2.svg" alt="">
+                        <img src="./public/icons/bath-2.svg" alt="property bath count" title="property bath count">
                         <h3>1 Bath</h3>
                     </div>
                     <div class="detail-item">
-                        <img src="./public/icons/for-sale.svg" alt="">
+                        <img src="./public/icons/for-sale.svg" alt="property for sale status"
+                            title="property for sale status">
                         <h3>For Sale</h3>
                     </div>
                     <div class="detail-item">
-                        <img src="./public/icons/unit-status.svg" alt="">
+                        <img src="./public/icons/unit-status.svg" alt="property unit status"
+                            title="property unit status">
                         <h3>Unit Status: Available</h3>
                     </div>
                     <div class="detail-item">
-                        <img src="./public/icons/project-status.svg" alt="">
+                        <img src="./public/icons/project-status.svg" alt="property project status"
+                            title="property project status">
                         <h3>Project Status: Ready</h3>
                     </div>
 
@@ -335,35 +385,37 @@
                 <div class="features-sub-grid">
                     <!-- #feature-item -->
                     <div class="feature-item">
-                        <img src="./public/icons/bedroom-2.svg" alt="">
+                        <img src="./public/icons/bedroom-2.svg" alt="property bed rooms count"
+                            title="property bed rooms count">
                         <h3>Maids Rooms</h3>
                     </div>
                     <div class="feature-item">
-                        <img src="./public/icons/bath-room-1.svg" alt="">
+                        <img src="./public/icons/bath-room-1.svg" alt="property wash room" title="property wash room">
                         <h3>Central Ac</h3>
                     </div>
                     <div class="feature-item">
-                        <img src="./public/icons/parking-1.svg" alt="">
+                        <img src="./public/icons/parking-1.svg" alt="property parking" title="property parking">
                         <h3>Covered parking</h3>
                     </div>
                     <div class="feature-item">
-                        <img src="./public/icons/gym-1.svg" alt="">
+                        <img src="./public/icons/gym-1.svg" alt="property gym" title="property parking">
                         <h3>Shared gym</h3>
                     </div>
                     <div class="feature-item">
-                        <img src="./public/icons/pets-1.svg" alt="">
+                        <img src="./public/icons/pets-1.svg" alt="property pets" title="property pets">
                         <h3>Pets Allowed</h3>
                     </div>
                     <div class="feature-item">
-                        <img src="./public/icons/storage-1.svg" alt="">
+                        <img src="./public/icons/storage-1.svg" alt="property storage" title="property storage">
                         <h3>Storage Room</h3>
                     </div>
                     <div class="feature-item">
-                        <img src="./public/icons/study-1.svg" alt="">
+                        <img src="./public/icons/study-1.svg" alt="property study" title="property study">
                         <h3>Study</h3>
                     </div>
                     <div class="feature-item">
-                        <img src="./public/icons/balcony-trace-1.svg" alt="">
+                        <img src="./public/icons/balcony-trace-1.svg" alt="property balconytrace"
+                            title="Property balconytrace">
                         <h3>Terrace</h3>
                     </div> <!-- ##feature-item -->
                 </div>
@@ -397,7 +449,7 @@
                 <div class="contact-onprint-sub-grid">
                     <!-- #contact-onprint-item -->
                     <div class="contact-onprint-item">
-                        <img src="./public/icons/agent-icon.svg" alt="">
+                        <img src="./public/icons/agent-icon.svg" alt="property agent" title="agent">
                         <div class="contact-onprint-info">
                             <p class="font-color-light">AGENT:</p>
                             <h3>Fadi Boush</h3>
@@ -407,7 +459,8 @@
                     <!-- <==============> -->
                     <!-- #contact-onprint-item -->
                     <div class="contact-onprint-item">
-                        <img src="./public/icons/Whatsapp.svg" alt="">
+                        <img src="./public/icons/Whatsapp.svg" alt="contact agent via whatsapp"
+                            title="contact agent via whatsapp">
                         <div class="contact-onprint-info">
                             <p class="font-color-light">Whatsapp:</p>
                             <h3>+9714329833</h3>
@@ -417,17 +470,18 @@
                     <!-- <==============> -->
                     <!-- #contact-onprint-item -->
                     <div class="contact-onprint-item">
-                        <img src="./public/icons/Mobile.svg" alt="">
+                        <img src="./public/icons/Mobile.svg" alt="contact agent via mobile phone number"
+                            title="contact agent via mobile phone number">
                         <div class="contact-onprint-info">
-                            <p class="font-color-light">Mobile Number:</p>
-                            <h3>+971558540033</h3>
+                            <p class="font-color-light">Mobile:</p>
+                            <h3>+971506441823</h3>
                         </div>
                     </div>
                     <!-- ##contact-onprint-item -->
                     <!-- <==============> -->
                     <!-- #contact-onprint-item -->
                     <div class="contact-onprint-item">
-                        <img src="./public/icons/Ref-no.svg" alt="">
+                        <img src="./public/icons/Ref-no.svg" alt="agent refrance number" title="agnet ref no">
                         <div class="contact-onprint-info">
                             <p class="font-color-light">REF.NO:</p>
                             <h3>S1812</h3>
@@ -437,9 +491,10 @@
                     <!-- <==============> -->
                     <!-- #contact-onprint-item -->
                     <div class="contact-onprint-item">
-                        <img src="./public/icons/Phone.svg" alt="">
+                        <img src="./public/icons/Phone.svg" alt="call agnet phone number"
+                            title="call agnet phone number">
                         <div class="contact-onprint-info">
-                            <p class="font-color-light">Phone Number:</p>
+                            <p class="font-color-light">Phone:</p>
                             <h3>+9714329833</h3>
                         </div>
                     </div>
@@ -447,10 +502,10 @@
                     <!-- <==============> -->
                     <!-- #contact-onprint-item -->
                     <div class="contact-onprint-item">
-                        <img src="./public/icons/Email.svg" alt="">
+                        <img src="./public/icons/Email.svg" title="agent send email" alt="agent send email">
                         <div class="contact-onprint-info">
                             <p class="font-color-light">Email:</p>
-                            <h3>amraboras109@gmail.com</h3>
+                            <h3>fadi@propertywatch.org</h3>
                         </div>
                     </div>
                     <!-- ##contact-onprint-item -->
@@ -466,10 +521,93 @@
     <!-- <#############################################################################> -->
     <div class="myContainer bottom-hr">
         <br />
+        <br />
+    </div>
+    <!-- <#############################################################################> -->
+
+    <!-- #body-payment-plan-onprint-section-container -->
+    <div class="myContainer">
+        <!-- #payment-plan-onprint-grid -->
+        <div class="payment-onprint-grid">
+            <!-- #payment-plan-onprint-main -->
+            <div class="payment-onprint-main">
+                <!-- #payment-plan-onprint-title -->
+                <h2>Payment Plan</h2>
+                <!-- ##payment-plan-onprint-title -->
+                <!-- <==============> -->
+                <!-- #payment-plan-onprint-sub-grid -->
+                <div class="payment-onprint-sub-grid">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h3>Type</h3>
+                                </th>
+                                <th>
+                                    <h3>From</h3>
+                                </th>
+                                <th>
+                                    <h3>To</h3>
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>1 Bedroom</p>
+                                </td>
+                                <td>
+                                    <p>AED 2,500,000</p>
+                                </td>
+                                <td>
+                                    <p>AED 1,560,000</p>
+                                </td>
+                            </tr>
+                            <tr class="trhr"></tr>
+                            <tr>
+                                <td>
+                                    <p>2 Bedroom</p>
+                                </td>
+                                <td>
+                                    <p>AED 1,560,000</p>
+                                </td>
+                                <td>
+                                    <p>AED 2,500,000</p>
+                                </td>
+                            </tr>
+                            <tr class="trhr"></tr>
+                            <tr>
+                                <td>
+                                    <p>3 Bedroom</p>
+                                </td>
+                                <td>
+                                    <p>AED 3,800,000</p>
+                                </td>
+                                <td>
+                                    <p>AED 3,800,000</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- #payment-plan-onprint-sub-grid -->
+            </div>
+            <!-- #payment-plan-onprint-main -->
+        </div>
+        <!-- #payment-plan-onprint-grid -->
+    </div>
+    <!-- ##body-payment-plan-onprint-section-container -->
+
+
+    <!-- <#############################################################################> -->
+    <div class="myContainer bottom-hr">
+        <br />
         <hr />
         <br />
     </div>
     <!-- <#############################################################################> -->
+
 
     <!-- #body-location-section-container -->
     <div class="myContainer">
@@ -485,8 +623,9 @@
                 <div class="location-sub-grid">
                     <!-- #location-item -->
                     <div class="location-item">
-                        <a href="#" class="location-item" style="text-decoration: none; color: black;">
-                            <img src="./public/icons/location.svg" alt="Details SVG Icon" />
+                        <a href="#" class="location-item" title="property location link"
+                            style="text-decoration: none; color: black;">
+                            <img src="./public/icons/location.svg" title="property location" alt="Propery location" />
                             <h3>OIA Residence, MotorCity</h3>
                         </a>
                     </div>
@@ -518,10 +657,18 @@
         <!-- <==============> -->
         <div class="images-onprint-grid">
             <!-- #image-item -->
-            <a href="#"><img src="public/images/2nd-theme-img.png" alt="property image" /></a>
-            <a href="#"><img src="public/images/2nd-theme-img.png" alt="property image" /></a>
-            <a href="#"><img src="public/images/2nd-theme-img.png" alt="property image" /></a>
-            <a href="#"><img src="public/images/2nd-theme-img.png" alt="property image" /></a>
+            <a href="#" title="property-image"><img
+                    src="https://www.propertyfinder.ae/property/c24c3a6c3e4252d6473266465c6e6c6c/260/185/MODE/e6073c/9639451-54862o.webp?ctr=ae"
+                    alt="property image 1" title="property image 1" /></a>
+            <a href="#" title="property-image"><img
+                    src="https://www.propertyfinder.ae/property/c24c3a6c3e4252d6473266465c6e6c6c/260/185/MODE/e6073c/9639451-54862o.webp?ctr=ae"
+                    alt="property image 2" title="property image 2" /></a>
+            <a href="#" title="property-image"><img
+                    src="https://www.propertyfinder.ae/property/c24c3a6c3e4252d6473266465c6e6c6c/260/185/MODE/e6073c/9639451-54862o.webp?ctr=ae"
+                    alt="property image 3" title="property image 3" /></a>
+            <a href="#" title="property-image"><img
+                    src="https://www.propertyfinder.ae/property/c24c3a6c3e4252d6473266465c6e6c6c/260/185/MODE/e6073c/9639451-54862o.webp?ctr=ae"
+                    alt="property image 4" title="property image 4" /></a>
             <!-- #image-item -->
         </div>
         <!-- ##image-grid -->
@@ -542,8 +689,9 @@
         <div class="footer-main-content">
             <!-- #main-content -->
             <p>© 2023 Powered by</p>
-            <a href="propertywatch.com">
-                <img src="./public/images/logo-black.png" width="128" alt="Property Watch Logo" />
+            <a href="https://www.propertywatch.org/" title="www.propertywatch.org" target="_blank">
+                <img src="./public/images/logo-black.png" width="128" title="Powered By www.PropertyWatch.org"
+                    alt="Property Watch Logo" />
             </a>
             <!-- ##main-content -->
         </div>
@@ -572,19 +720,20 @@
                 <div class="swiper-wrapper">
                     <!-- #wrapper-slide -->
                     <div class="swiper-slide">
-                        <img src="./public/images/main-theme-img.png" alt="Swiper Slide 1">
+                        <img src="./public/images/main-theme-img.png" alt="property main there image 1"
+                            title="view image">
                     </div>
                     <!-- ##wrapper-slide -->
                     <!-- <==============> -->
                     <!-- #wrapper-slide -->
                     <div class="swiper-slide">
-                        <img src="./public/images/2nd-theme-img.png" alt="Swiper Slide 1">
+                        <img src="./public/images/2nd-theme-img.png" alt="property image 2" title="view image">
                     </div>
                     <!-- ##wrapper-slide -->
                     <!-- <==============> -->
                     <!-- #wrapper-slide -->
                     <div class="swiper-slide">
-                        <img src="./public/images/3rd-theme-img.png" alt="Swiper Slide 1">
+                        <img src="./public/images/3rd-theme-img.png" title="view image" alt="property  image 3">
                     </div>
                     <!-- ##wrapper-slide -->
                 </div>
@@ -638,48 +787,82 @@
             <div class="share-nav">
                 <h3>Share</h3>
                 <button onclick="closeShareModal()">
-                    <img class="close" src="./public/icons/close-round-line-icon 1.svg" alt=" close modal icon">
+                    <img class="close" src="./public/icons/close-round-line-icon 1.svg" title="close modal"
+                        alt=" close modal icon">
                 </button>
             </div>
             <div class="share-nav second-share-nav">
                 <p>Spacious 1 Bedroom with Balcony | Pool View</p>
                 <button onclick="copyToClipboard()" class="copy-btn">
-                    <img src="./public/icons/copy.svg" alt="copy to clipboard icon">
+                    <img src="./public/icons/copy.svg" title="copy" alt="copy to clipboard icon">
                 </button>
             </div>
             <!-- ##modal-overlay-popup-nav -->
-            <hr>
+            <hr class="shareHR">
             <!-- #share-icons -->
             <div class="share-icons">
                 <!-- #facebook-share-button -->
-                <a href="https://www.facebook.com/sharer/sharer.php?u=propertywatch.com" target="_blank"><img
-                        src="./public/icons/facebook-app-icon 1 (1).png" alt="Facebook" width="64" height="64"></a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.rootsland.com/" target="_blank"
+                    title="share property on facebook"><img title="share using facebook"
+                        src="./public/icons/socail-icons/facebook-app-icon 1 (1).png" alt="Facebook" width="64"
+                        height="64">
+                    <p>Facebook</p>
+                </a>
                 <!-- ##facebook-share-button -->
 
                 <!-- #twitter-share-button -->
-                <a href="https://twitter.com/share?url=propertywatch.com" target="_blank"><img
-                        src="./public/icons/twitter-share.png" alt="Twitter" width="64" height="64"></a>
+                <a href="https://twitter.com/share?url=https://www.rootsland.com/" title="share using twitter"
+                    target="_blank"><img src="./public/icons/socail-icons/twitter-share.png" alt="Twitter"
+                        title="share property on twitter" width="64" height="64">
+                    <p>Twitter</p>
+                </a>
                 <!-- ##twitter-share-button -->
 
                 <!-- #whatsApp-share-button -->
-                <a href="https://api.whatsapp.com/send?text=Dubai Best Propery!%20propertywatch.com"
-                    target="_blank"><img src="./public/icons/wa-whatsapp-icon 1 (1).png " alt="WhatsApp" width=""
-                        height="64"></a>
+                <a href="https://api.whatsapp.com/send?text=Dubai Best Propery!%20https://www.rootsland.com/"
+                    target="_blank" title="share using whatsapp"><img
+                        src="./public/icons/socail-icons/wa-whatsapp-icon 1 (1).png" alt="WhatsApp"
+                        title="share property on whatsapp" width="" height="64">
+                    <p>Whatsapp</p>
+                </a>
                 <!-- ##whatsApp-share-button -->
 
-                <!-- #outlook-share-button -->
-                <a href="mailto:?subject=Dubai Best Property!&amp;body=Dubai Best Propery!%20propertywatch.com"><img
-                        src="public/icons/microsoft-outlook-share.png" alt="Outlook" width="64" height="64"></a>
-                <!-- ##outlook-share-button -->
+
+                <!-- #linkedIn-share-button -->
+                <a href="https://www.linkedin.com/shareArticle?url=https://www.propertywatch.org/" target="_blank"
+                    title="share using linkedin"><img src="./public/icons/socail-icons/linkedin-app-icon 1.png"
+                        alt="LinkedIn" title="share property on linkedin" width="64" height="64">
+                    <p>LinkedIn</p>
+                </a>
+                <!-- ##linkedIn-share-button -->
+
+                <!-- #instagram-share-button -->
+                <a href="https://ig.me/m/rootsland/" title="share property on instagram" target="_blank"><img
+                        src="./public/icons/socail-icons/ig-instagram-icon 1.png" alt="Instagram" width="64"
+                        title="share using instagram" height="64">
+                    <p>Instagram</p>
+                </a>
+                <!-- ##instagram-share-button -->
+
+                <!-- #email-share-button -->
+                <a href="mailto:?subject=Dubai Best Property!&amp;body=Dubai Best Propery!%20https://www.rootsland.com/"
+                    title="share property using email"><img
+                        src="./public/icons/socail-icons/microsoft-outlook-share.png" title="share using email"
+                        alt="Outlook" width="64" height="64">
+                    <p>Email</p>
+                </a>
+                <!-- ##email-share-button -->
+
 
             </div>
             <!-- ##share-icons -->
             <!-- #footer-main-content -->
-            <div class="footer-main-content">
+            <div class="footer-main-content modal-footer">
                 <!-- #main-content -->
-                <p>© 2023 Powered by</p>
-                <a href="propertywatch.com">
-                    <img src="./public/images/logo-black.png" width="128" alt="Property Watch Logo" />
+                <p>Powered by</p>
+                <a href="https://www.propertywatch.org/" title="Powered By PropertyWatch" target="_blank">
+                    <img src="./public/images/logo-black.png" width="128" title="Powered By PropertyWatch"
+                        alt="Property Watch Logo" />
                 </a>
                 <!-- ##main-content -->
             </div>
@@ -690,11 +873,34 @@
     </div>
     <!-- ##share-modal-element -->
 
-    <!-- #swiper-js-library -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!-- #javascript-script -->
-    <script src="./service/index.js"></script>
+    <!-- #image-zoom-modal-element -->
+    <div id="myZoomModal" class="modal">
+
+        <!-- #modal-close-btn -->
+        <span class="close" onclick="closeZoomModal()">&times;</span>
+        <!-- ##modal-close-btn -->
+        <!-- <==============> -->
+        <!-- #modal-overlay -->
+        <div class="overlay"></div>
+        <!-- #modal-overlay-popup -->
+        <div class="popup myZoomPopup">
+            <!-- #modal-overlay-popup-nav -->
+            <div id="image-preview">
+                <img style="object-fit: cover; width: 100%; height: 100%;" src="" title="preview image"
+                    alt="image preview">
+            </div>
+            <!-- #modal-overlay-popup -->
+        </div>
+        <!-- ##share-modal-element -->
+
+        <!-- #swiper-js-library -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+        <!-- #javascript-script -->
+        <script src="./service/index.js"></script>
 </body>
 
 </html>
